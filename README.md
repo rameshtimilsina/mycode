@@ -1,6 +1,7 @@
 # mycode (Learn and Grow)
 
 I am trying to learn how to get started with coding with Python. This repo will be used for my codes.
+I want to learn how to version control projects with git.
 
 ## Getting Started
 
