@@ -47,6 +47,7 @@ rooms = {
 
             'Kitchen' : {
                   'north' : 'Hall',
+                  'east'  : 'Garden',
                   'item'  : 'monster',
                   'description': 'DESCRIPTION: This monster is blue colored and loves cookies.',
                 },
