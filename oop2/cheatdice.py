@@ -31,3 +31,9 @@ class Cheat_Loaded_Dice(Player): # inheritance of Player
               self.dice[i] += 1
           i += 1
 
+#adding another cheater class
+class Cheat_RollOneMore_lessthan3(Player): #inheritance of Player
+    def cheat(self):
+        self.dice = []
+        for i in range(3):
+            self.dice.append(randint(3,6)) # only rolls 3 to 6 
