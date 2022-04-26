@@ -12,12 +12,12 @@ def main():
     #print(sliceme)
     #print(type(sliceme))
 
-    print(f"people in space: {sliceme['number']}")
+    print(f"People in space: {sliceme['number']}")
     for i in sliceme['people']:
         print(f"{i['name']} is on the {i['craft']}")
 
     print ("\nCURRENT LOCATION OF THE ISS:")
-    #for x in slicemenew['iss_position']:
     print(f"Lon: {slicemenew['iss_position']['longitude']}")
     print(f"Lat: {slicemenew['iss_position']['latitude']}")
+    
 main()
